@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/vg5000');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    font-size: x-large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(162, 0, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    width: 150px;
+}
+
+main {
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 25px;
+    border: 4px solid black;
+}
+
+main img {
+    border-radius: 50%;
+    height: 150px;
+    border: 4px solid black;
+    transform: translateY(-30px);
+}
+
+.links {
+    border: 3px solid black;
+    box-shadow: 3px 4px 0px 1px #000;
+    border-radius: 4px;
+    height: 50px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github {
+    background-color: #6e5494;
+}
+
+#instagram {
+    background-color: #fd1d1d;
+}
+
+#linkedin {
+    background-color: #0a66c2;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
